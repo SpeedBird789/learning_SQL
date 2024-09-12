@@ -1,0 +1,15 @@
+Questions for this assignment
+The script you executed prepares the data you'll be working with throughout the assignments in the course. Make sure you have executed it successfully. Study the script and tell me what are the different data types used?
+=> int, varchar, date
+
+
+What is the datatype of the course_no column?
+=> varchar(5)
+
+
+How many columns does the student_enrollment table have?
+=> 2
+
+
+How many rows does the teach table have?
+=> 8
