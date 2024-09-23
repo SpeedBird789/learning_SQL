@@ -1,3 +1,9 @@
+SELECT * FROM students 		        --Has columns: student_no, student_name, age
+SELECT * FROM courses		        --Has columns: course_no, course_title, credits
+SELECT * FROM student_enrollment	--Has columns: student_no, course_no
+SELECT * FROM professors		    --Has columns: last_name, department, salary, hire_date
+SELECT * FROM teach                 --Has last_name, course_no
+
 /*
     Write a query that shows the student's name, the courses the student is taking and the professors that teach that course.
 */

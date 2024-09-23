@@ -1,3 +1,9 @@
+SELECT * FROM students 		        --Has columns: student_no, student_name, age
+SELECT * FROM courses		        --Has columns: course_no, course_title, credits
+SELECT * FROM student_enrollment	--Has columns: student_no, course_no
+SELECT * FROM professors		    --Has columns: last_name, department, salary, hire_date
+SELECT * FROM teach                 --Has last_name, course_no
+
 /*
     In question 3 you discovered why there is repeating data. How can we eliminate this redundancy? Let's say we only care to see a single professor teaching a course and we don't care for all the other professors that teach the particular course. Write a query that will accomplish this so that every record is distinct.
 
